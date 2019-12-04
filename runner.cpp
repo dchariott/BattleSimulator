@@ -22,6 +22,7 @@ Runner::Runner(): mgr{MoveManager()}
     switch(type){
         case ActorType::ghost:
             P1 = new Ghost();
+            break;
         case ActorType::knight:
             P1 = new Knight();
             break;
